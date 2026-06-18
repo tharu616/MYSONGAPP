@@ -1,0 +1,20 @@
+{
+  "name": "mysongapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electron-main.js",
+  "scripts": {
+    "react-start": "cd frontend && npm start",
+    "electron-start": "electron .",
+    "start": "concurrently \"npm run react-start\" \"npm run electron-start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^10.0.3",
+    "electron": "^30.0.0"
+  }
+}
