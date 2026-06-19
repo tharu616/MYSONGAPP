@@ -1,0 +1,45 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# testing
+coverage/
+
+# production
+build/
+dist/
+out/
+
+# Electron builds - heavy binaries
+*.exe
+*.dmg
+*.AppImage
+*.snap
+*.asar
+
+# environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# optional - media files (MySongApp nam me tika comment karanna)
+# *.mp3
+# *.mp4
+# *.wav
+# *.zip
+# *.rar
